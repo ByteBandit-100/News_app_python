@@ -13,7 +13,8 @@ def today_date():
     now = datetime.datetime.now()
     return now.strftime('%Y-%m-%d')
 
-key = "8bb842c0591c476d99736fd6d92d7c7f"
+#Use your own api key free from newsapi.org
+key = "8******************f"
 
 while True:
         print('-------------- * Global News * -------------- \n')
